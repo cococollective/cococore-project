@@ -18,7 +18,6 @@ nbproject
 .sass-cache
 
 # Directories created by Composer
-/web/
 /web/*
 !/web/robots.txt
 !/web/.htaccess
