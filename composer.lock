@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f9f55206f25982c91bbc5d07977575c5",
-    "content-hash": "b2bb21c579459402e5aa2f563182eec2",
+    "hash": "098af1c8c6777a0940de7a71fe8ad52c",
+    "content-hash": "6d44857f6fa55f96d40cb464d23254ff",
     "packages": [
         {
             "name": "cococollective/cococore",
@@ -387,7 +387,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "cococollective/cococore": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
