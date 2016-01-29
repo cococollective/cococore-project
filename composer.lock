@@ -4,9 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32ca1757b30c0d584c1f9409e91ebe14",
-    "content-hash": "7ff9f08f3ae1949c75560c2392adb910",
+    "hash": "f9f55206f25982c91bbc5d07977575c5",
+    "content-hash": "b2bb21c579459402e5aa2f563182eec2",
     "packages": [
+        {
+            "name": "cococollective/cococore",
+            "version": "dev-7.x-0.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cococollective/cococore.git",
+                "reference": "e5bac9bf3389c4970011b128734c9cebdd73fff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cococollective/cococore/zipball/e5bac9bf3389c4970011b128734c9cebdd73fff0",
+                "reference": "e5bac9bf3389c4970011b128734c9cebdd73fff0",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/betterlogin": "7.*",
+                "drupal/navbar": "7.*"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-0.x": "7.0.x-dev"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sierk Beij",
+                    "email": "sierk@cococollective.org"
+                }
+            ],
+            "description": "CocoCore install profile for Drupal.",
+            "support": {
+                "source": "https://github.com/cococollective/cococore/tree/7.x-0.x",
+                "issues": "https://github.com/cococollective/cococore/issues"
+            },
+            "time": "2016-01-29 08:06:22"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.23",
@@ -158,6 +198,33 @@
             "time": "2015-06-17 18:21:27"
         },
         {
+            "name": "drupal/betterlogin",
+            "version": "7.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/betterlogin",
+                "reference": "9e38b538aed134333640025ff1ea5df37f104054"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/betterlogin-7.x-1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Make the login screens better :)",
+            "homepage": "https://www.drupal.org/project/betterlogin"
+        },
+        {
             "name": "drupal/drupal",
             "version": "7.41.0",
             "source": {
@@ -256,16 +323,72 @@
                     "dev-7.x-": "7.x-dev"
                 }
             },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
             "description": "Handles general site configuration for administrators.",
             "homepage": "https://www.drupal.org/project/drupal"
+        },
+        {
+            "name": "drupal/libraries",
+            "version": "7.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/libraries",
+                "reference": "744cd04d1c78a08d10b511f67904f0839baf94ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/libraries-7.x-2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/system": ">=7.11.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-2.x": "7.2.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Allows version-dependent and shared usage of external libraries.",
+            "homepage": "https://www.drupal.org/project/libraries"
+        },
+        {
+            "name": "drupal/navbar",
+            "version": "7.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/navbar",
+                "reference": "090a522df5a5005689976e5f61011fad5b16dcd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/navbar-7.x-1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/libraries": ">=7.2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "A very simple mobile friendly navigation toolbar that lets you switch between frontend and backend.",
+            "homepage": "https://www.drupal.org/project/navbar"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
