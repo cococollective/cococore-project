@@ -16,7 +16,7 @@
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
-    "cococollective/cococore": "7.0.*@dev"
+    "cococollective/cococore": "7.0.*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
