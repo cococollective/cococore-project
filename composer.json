@@ -4,10 +4,6 @@
   "license": "GPL-2.0+",
   "repositories": [
     {
-      "type": "composer",
-      "url": "http://packagist.drupal-composer.org"
-    },
-    {
       "type": "vcs",
       "url": "http://github.com/cococollective/cococore"
     }
@@ -15,15 +11,11 @@
   "require": {
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
-    "drupal/drupal": "7.*",
     "cococollective/cococore": "7.0.*",
     "wikimedia/composer-merge-plugin": "^1.3"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "conflict": {
-    "drupal/core": "8.*"
-  },
   "config": {
     "vendor-dir": "vendor"
   },
