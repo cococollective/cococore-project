@@ -20,6 +20,9 @@
     "vendor-dir": "vendor"
   },
   "extra": {
+    "merge-plugin": {
+      "merge-extra": true
+    },
     "installer-paths": {
       "web/": ["type:drupal-core"],
       "web/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
