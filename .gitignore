@@ -17,7 +17,8 @@ nbproject
 .svn
 .sass-cache
 
-# Directories created by Composer
+# Directories/files created by Composer
+/composer.lock
 /web/*
 !/web/robots.txt
 !/web/.htaccess
